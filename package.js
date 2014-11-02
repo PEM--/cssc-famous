@@ -1,12 +1,12 @@
 Package.describe({
   summary: 'Famo.us plugin for CSSC',
-  version: '1.0.0',
+  version: '1.0.1',
   name: 'pierreeric:cssc-famous',
   git: 'https://github.com/PEM--/cssc-famous.git'
 });
 
 Package.onUse(function(api) {
-  api.use('pierreeric:cssc@1.0.0');
+  api.use(['coffeescript@1.0.0', 'pierreeric:cssc@1.0.0']);
   api.addFiles('cssc-famous.coffee', 'client');
   api.imply('pierreeric:cssc');
 });

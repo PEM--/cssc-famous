@@ -1,6 +1,8 @@
 # This file is a translation from:
 #  https://github.com/Famous/famous/blob/master/src/core/famous.css
 @famousCss = new CSSC
+
+famousCss
   .add '.famous-root',
     width: CSSC.pc 100
     height: CSSC.pc 100
