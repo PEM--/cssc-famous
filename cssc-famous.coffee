@@ -8,6 +8,8 @@ famousCss
     height: CSSC.pc 100
     margin: 0
     padding: 0
+    # ios8 hotfix
+    opacity: .999999
     overflow: 'hidden'
     webkitTransformStyle: 'preserve-3d'
     transformStyle: 'preserve-3d'

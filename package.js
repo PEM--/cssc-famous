@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Famo.us plugin for CSSC',
-  version: '1.0.1',
+  version: '1.0.2',
   name: 'pierreeric:cssc-famous',
   git: 'https://github.com/PEM--/cssc-famous.git'
 });
